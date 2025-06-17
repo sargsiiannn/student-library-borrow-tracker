@@ -106,7 +106,7 @@ class Library:
 
         book.is_borrowed = True
 
-        print(f"✅ Checkout successful!")
+        print(f" Checkout successful!")
         print(f"   Student: {self.students[student_id].name} (ID: {student_id})")
         print(f"   Book: '{book.title}' (ID: {book_id})")
         print(f"   Checkout Date: {checkout_date.strftime('%Y-%m-%d')}")
